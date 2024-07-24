@@ -23,7 +23,7 @@ def main():
     
     #Game Loop/Update Loop
     numberOfGuesses = 0
-    print("DEBUG: " + answer)
+    #print("DEBUG: " + answer)
     while(1):
         #guess: Stores the users Guess
         guess = input("Make a guess: ")
@@ -47,7 +47,7 @@ def main():
         
             answer = names[random.randint(0, len(names))]
             answer = answer.lower()
-            print("DEBUG: " + answer)
+            #print("DEBUG: " + answer)
             numberOfGuesses = 0
         else:
             for index in range(0, len(guess)):
@@ -64,7 +64,5 @@ def main():
                     temp2 = temp2.replace(guess[index], "^",1)
             numberOfGuesses += 1
         print(temp)
-        #print(temp2)
-        
 
 main()
