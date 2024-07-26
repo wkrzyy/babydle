@@ -1,6 +1,11 @@
-This program does not have a GUI - it runs entirely in Python. You can run this program by downloading Python from their official website: https://www.python.org/downloads/ or using any text editor/IDE that has the capability to run Python.
+This program does not have a GUI - it runs entirely in Python. 
 
-prerequisites: 'baby-names-4.csv' in same folder as 'WordleEngine.py'
+Step 1: Download this program by hitting the green 'Code' button near the top right of the repository and then 'Download Zip'
+Step 2: Extract the Zip file
+Step 3: Download Python from their official website: https://www.python.org/downloads/ or using any text editor/IDE that has the capability to run Python.
+Step 4: Navigate inside of the unzippped folder and run 'WordleEngine.py' using the Python IDLE shell, or another preferred Python IDE
 
-run 'WorldleEngine.py'
 have fun!
+
+prerequisites to executing program: Python installed and 'baby-names-4.csv' in same folder as 'WordleEngine.py'
+
